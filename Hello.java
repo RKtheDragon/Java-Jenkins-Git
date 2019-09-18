@@ -19,9 +19,22 @@ public class Hello{
 // In the CLI type: git init to make it a GIT repository
 // git status
 // git add .
-// git commit -m "First commit to add Hello world to GIT"
+// git commit -m "Java Prj added on GIT"
 //
-// git remote add origin https://github.com/RKtheDragon/Java-Jenkins-Git.git
+// git remote add origin 
+//        https://github.com/RKtheDragon/Java-Jenkins-Git.git
+// git push -u origin master
+// 
+// Go to Jenkins --> 
+//         Add New Item --> HelloWoldLoop
+//         FreeStyle Project --> 
+//         Build --> Execute Windows Batch Command 
+//            cd C:\Users\rkg07\Documents\Git\Java-Jenkins-Git
+//		      javac Hello.java 
+//            java Hello 
+//      --> Build 
+//      --> Console Output 
+//
 
 
 
